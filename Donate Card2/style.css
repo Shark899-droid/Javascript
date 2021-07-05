@@ -1,0 +1,79 @@
+body{
+    background-color:#EBF3FB;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    background-color: #131B2B;
+    margin-left:35%;
+     margin-right: 35%;
+     border-radius:30px;
+     padding:30px; 
+     padding-left:8%;
+     padding-top:20px;
+}
+h1{
+    color:#EBF3FB;
+   
+    font-size: 25px;
+}
+
+p{
+    
+    color:#EBF3FB;
+}
+
+button{
+    
+    background-color:#EBB34B;
+    border-radius: 15px;   
+    padding: 20px 50px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top:20px;
+}
+
+.money{
+    display: flex;
+    background-color:#070d1a;
+    border-radius: 10px;
+    margin-bottom:20px;
+    border: 1px solid #EBF3FB;
+    
+    
+}
+
+    .money{
+    margin-top:10px;
+    padding-left:50px;
+    padding-right:50px;
+    padding-top:20px;
+    padding-bottom: 20px;
+    width:30%;
+    background-color:#070d1a;
+    border:1px solid #EBF3FB;
+    color:#8D9299;
+    text-align: center;
+    /* padding:50px 20px 20px 50px; */
+    
+    
+    }
+
+    span{
+        color:#EBF3FB;
+        
+        
+        
+    }
+
+    .money:focus{
+       outline: none;
+    }
+
+    .moneyNum{
+        margin-top:-20px;
+    font-size:20px;
+    font-weight:bold;
+    }
