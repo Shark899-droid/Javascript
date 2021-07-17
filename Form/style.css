@@ -1,0 +1,59 @@
+body{
+    background-color: green;
+    font-weight: bold;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(206, 202, 202);
+    margin-left: 30%;
+    margin-right: 30%;
+    padding:30px;
+}
+.format{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    
+    margin-top:20px;
+    margin-bottom: 10px;;
+    }
+
+    input{
+        border-radius: 5px;
+        height: 35px;
+        border: 2px solid rgb(104, 103, 103);
+        font-size:18px;
+        padding-left:15px;
+    }
+
+    input:hover{
+        
+        border: 2px solid blue;
+    }
+
+    h1{
+        font-size:40px;
+        margin-top: -15px;
+        word-wrap: break-word;
+    }
+
+    .radio{
+        display: flex;
+        align-items: center;
+        margin-top:-20px;
+    }
+    button{
+        background-color:blue;
+        color:white;
+        padding: 10px;
+        margin-right:90%;
+        border-radius: 7px;
+        
+    }
+
+    .alert{
+        margin-top: 5px;
+        color:red;
+    }
