@@ -15,20 +15,23 @@
         <input type="text" id="LabelText" />
         <span id="alert" class="alert"></span>
 
-        <label for="name" required>Password</label>
-        <input type="password" />
+        <label for="name">Password</label>
+        <input type="password" id="LabelPass" />
+        <span id="alertPass" class="alert"></span>
 
         <label for="name">City</label>
         <input type="text" />
 
         <p>Gender</p>
         <div class="radio">
-          <span>Male</span>
-          <input type="radio" id="radioMale" />
-          <span>Female</span>
-          <input type="radio" id="radioFemale" />
+          <label for="radioMale">Male</label>
+          <input type="radio" id="radioMale" checked name="gender" />
+          <label for="radioFemale">Female</label>
+          <input type="radio" id="radioFemale" name="gender" />
+          <label for="radioMale">Other</label>
+          <input type="radio" id="radioOther" name="gender" />
         </div>
-        <button type="button">Submit</button>
+        <button type="button" id="submit">Submit</button>
       </form>
     </div>
 
