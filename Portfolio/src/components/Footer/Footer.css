@@ -1,0 +1,20 @@
+.container-footer {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255,255,255);
+    justify-content: center;
+    align-items: center;
+    height:13rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.container-icons{
+    display: flex;
+}
+
+h4{
+    color: rgb(158,158,158);
+    font-weight : bold;
+    font-size:1.3em;
+}

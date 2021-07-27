@@ -1,0 +1,36 @@
+.containerBody{
+    display:flex;
+}
+
+.firstSectionBody{
+    width: 70%;
+    height:50rem;
+    background-color:black;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+
+.secondSectionBody{
+    display:flex;
+    justify-content: center;
+    align-items:start;
+    width: 30%;
+    height: 50rem;
+    background-color:rgb(185,185,185);
+}
+h2{
+    color: white;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.image-body{
+    width: 100%;
+    height: auto;
+}
+.iconContainer{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+}
