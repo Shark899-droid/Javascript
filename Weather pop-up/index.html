@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Weather pop-up</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="weather">
+        <h1 class="city">Lacedonia</h1>
+        <h3 id="Firsth3">Current Weather</h3>
+        <span class="temperature"></span>
+        <span class="wind"></span>
+        <span class="sky"></span>
+        <h3>Forecast</h3>
+        <div class="forecast">
+          <div class="dayContainer">
+            <div class="day">
+              <span class="day1"></span>
+              <span class="temperature1"></span>
+              <span class="wind1"></span>
+            </div>
+            <div class="day">
+              <span class="day2"></span>
+              <span class="temperature2"></span>
+              <span class="wind2"></span>
+            </div>
+            <div class="day">
+              <span class="day3"></span>
+              <span class="temperature3"></span>
+              <span class="wind3"></span>
+            </div>
+          </div>
+        </div>
+        <div class="inputWrapper">
+          <input type="text" class="inputWeather" />
+          <button type="button" class="btn">Choose</button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js" />
+  </body>
+</html>

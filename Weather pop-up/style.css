@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding:0;
+    background-color: rgba(188,188,188,0.5);
+    font-weight: bold;
+    font-style: "Roboto";
+}
+
+.container{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height:100%;
+    
+}
+
+.weather{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:rgb(85, 0, 0);
+    width:30rem;
+    height:30rem;
+    border-radius: 20%;
+    /* box-shadow: ; */
+    color:rgb(175, 175, 175);
+}
+#Firsth3{
+    margin-top:-1rem;
+}
+.forecast{
+    display: flex;
+    justify-content: center;
+}
+
+.dayContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.day{
+    display:flex;
+    justify-content: space-between;
+}
+.inputWrapper{
+    display: flex;
+    margin-top:4rem;
+}
+
+.btn{
+    background-color:green;
+    width:5rem;
+    height:2rem;
+    border-radius: 2rem;
+    border:none;
+}
+
