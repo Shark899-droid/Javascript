@@ -1,0 +1,94 @@
+.startContainer{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+ position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+background-color:rgb(135,206,250);
+width:100%;
+height: 100%;
+}
+
+.startBtn{
+    background-color:rgb(160, 34, 160);
+    border-radius: 50px;
+    padding: 5px;
+    width:5rem;
+    color:white;
+    border:none;
+    margin-top:2rem;
+}
+
+.startSpan{
+    font-weight:bold;
+    font-size:20px;
+}
+
+.startP{
+     font-weight:bold;
+    font-size:20px;
+}
+
+/* GAME STYLE */
+
+.gameContainer{
+ position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%); 
+background-color:rgb(135,206,250);
+width:100%;
+height: 100%;
+display: none;
+}
+
+.gameShape{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    background-color:red;
+    position:absolute;
+    left:10px;
+}
+
+.gameHeader{
+    display:flex;
+    justify-content:space-between;
+    margin:1rem;
+}
+
+.gameSpan{
+    font-weight:bold;
+    font-size:20px;
+    padding-left:1rem;
+    padding-right:1rem;
+}
+
+/* WIN SCREEN  */
+
+.winContainer{
+      display:none;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+ position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+background-color:rgb(135,206,250);
+width:100%;
+height: 100%;
+    }
+
+.wonBtn{
+     background-color:rgb(160, 34, 160);
+    border-radius: 50px;
+    padding: 5px;
+    width:5rem;
+    color:white;
+    border:none;
+    margin-top:2rem;
+}

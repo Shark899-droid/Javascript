@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Click Shape</title>
+  </head>
+  <body>
+    <div class="startContainer">
+      <span class="startSpan"
+        >Click the following circles within 1 second to score.</span
+      >
+      <span class="startSpan">Get 15 points to win!</span>
+      <span class="startSpan"
+        >(The wider your screen, the harder the game)</span
+      >
+      <button type="button" class="startBtn">Start</button>
+      <p class="startP">Click Start to Begin!</p>
+    </div>
+    <div class="gameContainer">
+      <div class="gameHeader">
+        <span class="gameSpan" id="timer">Timer:60</span>
+        <span class="gameSpan" id="score">Score:0</span>
+      </div>
+    </div>
+    <div class="winContainer">
+      <h1 id="wonOrLost">You Won!!!!!!!!</h1>
+      <h3>Congratulations!!!</h3>
+      <h4 id="finalScore"></h4>
+      <button type="button" class="wonBtn">Play Again!</button>
+    </div>
+    <script src="scripts.js"></script>
+  </body>
+</html>
