@@ -1,0 +1,139 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* MAIN PAGE STYLE */
+
+.mainPageContainer{
+    position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+display:flex;
+flex-direction: column;
+width: 30%;
+}
+
+.headerContainer{
+    display:flex;
+    flex-direction: column;
+    background-color:rgb(111,67,156);
+    width:100%;
+    padding-left:3rem;
+    color:white;
+}
+
+.bodyContainer{
+    display:flex;
+    flex-direction: column;
+    background-color:rgb(43,41,46);
+    width:100%;
+    padding-left:3rem;
+}
+
+.searchBar{
+     display:flex;
+    background-color:rgb(53,50,57);
+    width:100%;
+    height:4rem;
+    padding-left:3rem;
+}
+
+#searchInput{
+    height:1.5rem;
+    margin-top:0.5rem;
+    border:none;
+    padding-left:0.5rem;
+}
+#searchInput:focus{
+    border:none;
+    outline:none;
+}
+
+#addRecipeButton{
+    background-color:rgb(112,68,160);
+  border-radius: 5px;  
+  width:5rem;
+  height:2rem;
+  border:none;
+  margin-top:1rem;
+  margin-bottom:2rem;
+}
+
+
+/* ADD RECIPE STYLE */
+
+
+.addRecipeContainer{
+        position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+display:flex;
+flex-direction: column;
+width: 30%;
+
+}
+
+.addRecipeTag{
+     display:flex;
+     align-items:center;
+    background-color:rgb(53,50,57);
+    width:100%;
+    height:4rem;
+    padding-left:3rem;
+    color:white;
+}
+
+.addRecipeh1{
+    color:white;
+    font-size: 1.5em;
+}
+
+#addRecipeInput{
+    width:10rem;
+    height:1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+#addRecipeText{
+    height:10rem;
+    margin-right: 3rem;
+}
+
+.addIngredientsBox{
+    display:flex;
+    margin-top:0.5rem;
+}
+
+.addRecipeButton1{
+      background-color:rgb(112,68,160);
+  border-radius: 5px;  
+  width:auto;
+  height:2rem;
+  border:none;
+  margin-left:1rem;
+}
+
+#addRecipeButton2{
+    background-color:rgb(112,68,160);
+  border-radius: 5px;  
+  width:7rem;
+  height:2rem;
+  border:none;
+  margin-top:1rem;
+  margin-bottom:2rem;
+}
+
+/* POP UP */
+
+.pop-up{
+    display:flex;
+    flex-direction: column;
+}
+.pop-up-interior{
+    display:flex;
+    align-items: center;
+}
