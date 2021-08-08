@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Recipe App</title>
+  </head>
+  <body>
+    <!-- MAIN PAGE -->
+    <!-- <div class="mainPageContainer">
+      <div class="headerContainer">
+        <h1 style="margin-top: 0.2rem">The Recipe App</h1>
+        <p style="margin-top: -0.6rem">
+          What recipe do you want to save today ?
+        </p>
+      </div>
+      <div class="searchBar">
+        <input type="text" placeholder="Search" id="searchInput" />
+      </div>
+      <div class="bodyContainer">
+        <button type="button" id="addRecipeButton">Add recipe</button>
+      </div>
+    </div> -->
+
+    <!-- ADD RECIPE -->
+
+    <div class="addRecipeContainer">
+      <div class="headerContainer">
+        <h1 style="margin-top: 0.2rem">The Recipe App</h1>
+        <p style="margin-top: -0.6rem">
+          What recipe do you want to save today ?
+        </p>
+      </div>
+      <div class="addRecipeTag">
+        <h1 class="addRecipeh1">Add Recipe</h1>
+      </div>
+      <div class="bodyContainer">
+        <input
+          type="text"
+          placeholder="Add a recipe name"
+          id="addRecipeInput"
+        />
+        <textarea placeholder="Recipe Steps" id="addRecipeText"></textarea>
+        <h1 class="addRecipeh1">Ingredients</h1>
+        <span style="color: white; font-weight: bold"
+          >After adding your ingredient, use the checkbox to indicate if you
+          have it in stock.</span
+        >
+        <div class="addIngredientsBox">
+          <input
+            style="height: 1.5rem"
+            type="text"
+            placeholder="Add ingredient"
+          />
+          <button type="button" class="addRecipeButton1">Add ingredient</button>
+        </div>
+        <button type="button" id="addRecipeButton2">Add new recipe</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
