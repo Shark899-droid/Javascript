@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Coin Toss</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="messageh1" style="text-align: center">
+        First Player to 5 Points Win!
+      </h1>
+      <div class="playerSelection">
+        <p>
+          Player Selected:
+          <span id="playerSelection" style="color: green">heads</span>
+        </p>
+        <p>
+          Computer Selected:
+          <span id="pcSelection" style="color: blue">tails</span>
+        </p>
+      </div>
+      <img src="coin.jfif" alt="coin" />
+      <div class="playerPoints">
+        <p style="margin-right: 20px" id="playerScore">Player: 0</p>
+        <p id="computerScore">Computer: 0</p>
+      </div>
+      <h3 style="text-align: center">Make a selection</h3>
+      <div class="playerPoints">
+        <button type="button" style="margin-right: 5px" id="buttonHeads">
+          Heads
+        </button>
+        <button type="button" id="buttonTails">Tails</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
