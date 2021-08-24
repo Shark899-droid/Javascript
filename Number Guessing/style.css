@@ -1,0 +1,94 @@
+body{
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(247,247,247);
+}
+
+.container{
+    margin:20px;
+    position: absolute;
+    left:50%;
+    transform: translate(-50%);
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    margin: 0;
+    padding:0;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(123,49,82);
+    font-size: 10px;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(41,173,173) ;
+    width: 100%;
+}
+
+.secondH1{
+    color:white;
+    font-size: 30px;
+}
+
+input{
+    outline:none;
+    border:3px solid rgb(16,115,123);
+    width: 80%;
+    height:5rem;
+    text-align: center;
+    font-size:50px;
+}
+
+button{
+    margin-top:3rem;
+    background-color: rgb(255,247,0);
+    width:50%;
+    height: 2.5rem;
+    border: none;
+    border-radius: 20px;
+    font-size:20px;
+    font-weight: bold;
+}
+
+.white{
+    color:white;
+    font-weight: bold;
+}
+
+footer{
+     margin: 0;
+    padding:0;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(123,49,82);
+    font-size: 30px;
+    margin-bottom: 5rem;
+    height: 55px;
+}
+
+@media screen and (max-width: 492px) { 
+    footer{
+        font-size: 15px;
+    }
+}
+
+
+@media screen and (max-width: 378px) { 
+    button{
+        font-size: 15px;
+    }
+}
