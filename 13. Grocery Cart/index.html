@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Grocery Cart</title>
+</head>
+<body>
+    <div id="app">
+        <header>
+            <span>
+                <div class="innerButton">
+                    <img src="cell.svg"/>
+                    <span style="margin-left:20px;">+ 123 456 789</span>
+                </div>
+            
+            
+            </span>
+            <button id="cartBtn" @click="showModal">
+                <div class="innerButton">
+                <img src="cart.svg"/>
+                <span style="margin-left:20px;">{{itemsCount}} - ${{calculatePrice}}</span>
+                </div>
+            </button>
+        </header>
+        <div class="modal">
+            <ul v-if="isActive">
+                <div class="item" v-for="(cake, index) in cakes" key="cake.img">
+                    <img class="imgs":src="cake.img" alt="cake1"/>
+                    <div class="innerItem">
+                        <h3 style="margin-bottom:-2px;margin-top: 0;">Cart Item</h3>
+                        <span>{{cake.price}}</span>
+                    </div>
+                    <img src="bin.svg" @click="deleteItem(index)"/>
+                </div>
+               <div class="footer">
+                    <div class="firstFooter">
+                    <span>Total</span>
+                    <span>${{calculatePrice}}</span>
+                    </div>
+                    <div class="secondFooter">
+                    <button type="button" @click="clearCart" id="clearCart">CLEAR CART</button>
+                    <button id="Checkout" @click="checkOut">CHECKOUT</button>
+                </div>
+                </div>
+            </ul>
+        </div>
+    </div>
+    <script src="https://unpkg.com/vue@next"></script>
+    <script src="app.js"></script>
+</body>
+</html>
